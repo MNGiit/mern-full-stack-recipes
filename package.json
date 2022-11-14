@@ -1,0 +1,34 @@
+{
+  "name": "mern-full-stack-recipes",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000m\u0000e\u0000r\u0000n\u0000-\u0000f\u0000u\u0000l\u0000l\u0000-\u0000s\u0000t\u0000a\u0000c\u0000k\u0000-\u0000r\u0000e\u0000c\u0000i\u0000p\u0000e\u0000s\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^7.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.2",
+    "morgan": "^1.10.0",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "npm run start --prefix frontend",
+    "server": "nodemon backend/server",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MNGiit/mern-full-stack-recipes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MNGiit/mern-full-stack-recipes/issues"
+  },
+  "homepage": "https://github.com/MNGiit/mern-full-stack-recipes#readme"
+}

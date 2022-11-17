@@ -9,7 +9,7 @@ export default function UserLogOut({user, setUser}) {
 
     return (
         <div>
-            <div>{user.newUser.name}</div>
+            {/* <div>{user.newUser.name}</div> */}
             <button onClick={handleLogOut}>Log out</button>
         </div>
     );
